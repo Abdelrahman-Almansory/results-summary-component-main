@@ -57,6 +57,7 @@ body {
 body {
     background-color: var(--neu--Pal--blue);
     height: 100vh;
+    font-size: 1rem;
 }
 
 .results-summary-container {
@@ -88,8 +89,8 @@ body {
 
 .circle {
     background: linear-gradient(to bottom , var(--violet--blue) , var(--persian--blue));
-    width: 11rem;
-    height: 11rem;
+    width: 13rem;
+    height: 13rem;
     border-radius: 50%;
     line-height: 1;
     display: flex;
@@ -108,7 +109,7 @@ body {
 
 .circle-section-score__word {
     font-weight: var(--fw--L);
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 
 .circle-section-score__info {
@@ -135,7 +136,7 @@ body {
 
 .info-section-info {
     display: flex;
-    padding: 1rem;
+    padding: 1.2rem;
     width: 100%;
     justify-content: space-between;
     border-radius: 0.5rem;
@@ -206,7 +207,6 @@ body {
     .results-summary-container {
         display: grid;
         place-content: center;
-        grid-template-rows: 452.8px;
         grid-template-columns: 40% 40%;
     }
 
@@ -232,6 +232,18 @@ body {
         background-color: var(--neu--white);
         transform: translateX(-100px);
         z-index: 2;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .info-section-title {
+        margin-bottom: 1rem;
+    }
+
+    .btn {
+        margin-top: 1rem;
     }
 
 }
