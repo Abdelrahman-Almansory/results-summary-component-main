@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+</head>
+<body>
+  <main>
+    <div class="results-summary-container">
+      <div class="results-summary__circle-section">
+        <p class="circle-section__title">Your Result</p>
+        <div class="circle">
+          <div class="score">76</div>
+          <div class="total-score">of 100</div>
+        </div>
+        <p class="circle-section-score__word">Great</p>
+        <p class="circle-section-score__info">You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+      <aside>
+        <div class="results-summary__info-section">
+          <p class="info-section-title">
+            Summary
+          </p>
+          <div class="info-section-info reaction">
+            <div class="info-section-info__name">
+              <img src="assets/images/icon-reaction.svg" alt="reaction icon" class="info-image">
+              <span class="info-section-word">Reaction</span>
+            </div>
+            <div class="info-section-info__grade">80 <span class="faded-word">
+              / 100
+            </span> </div>
+          </div>
+          <div class="info-section-info memory">
+            <div class="info-section-info__name">
+              <img src="assets/images/icon-memory.svg" alt="memory icon" class="info-image">
+              <span class="info-section-word">Memory</span>
+            </div>
+            <div class="info-section-info__grade">92 <span class="faded-word">
+              / 100
+            </span></div>
+          </div>
+          <div class="info-section-info verbal">
+            <div class="info-section-info__name">
+              <img src="assets/images/icon-verbal.svg" alt="verbal icon" class="info-image">
+              <div class="info-section-word">Verbal</div>
+            </div>
+            <div class="info-section-info__grade">61 <span class="faded-word">
+              / 100
+            </span> </div>
+          </div>
+          <div class="info-section-info visual">
+            <div class="info-section-info__name">
+              <img src="assets/images/icon-visual.svg" alt="visual icon" class="info-image">
+              <div class="info-section-word">Visual</div>
+            </div>
+            <div class="info-section-info__grade">72 <span class="faded-word">
+            / 100
+            </span> </div>
+          </div>
+          <button class="btn">Continue</button>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+</body>
+</html>
